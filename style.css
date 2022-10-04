@@ -1,0 +1,18 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #70c7d4 url(imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+ul li {
+    border: 1px red solid;
+    float: left;
+
+}
+li a {
+    text-decoration: none;
+}
+
