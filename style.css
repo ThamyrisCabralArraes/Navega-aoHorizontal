@@ -8,11 +8,26 @@ ul {
     float: left;
 }
 ul li {
-    border: 1px red solid;
     float: left;
-
 }
-li a {
+ul a {
     text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: #fff;
+    background: url(imagens/divisor.png) repeat-y;
+
+}
+ul .primeiro a {
+    background: none;
 }
 
+ul a:hover {
+    color: #041525;
+    background: #44cade;
+}
+
+ul .selecionado {
+    background: #44cade;
+}
